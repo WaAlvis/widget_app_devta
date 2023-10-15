@@ -1,12 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:widget_app_devta/config/app_theme.dart';
+import 'package:widget_app_devta/presentation/screens/home/home_screen.dart';
 
-import 'src/app.dart';
-import 'src/settings/settings_controller.dart';
-import 'src/settings/settings_service.dart';
 
-void main() async {
-  final settingsController = SettingsController(SettingsService());
+void main() {
+  runApp(const MainApp());
+}
 
-  await settingsController.loadSettings();
-  runApp(MyApp(settingsController: settingsController));
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: const HomeScreen(),
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme(selectedColor: 0).getTheme(),
+    );
+  }
 }
