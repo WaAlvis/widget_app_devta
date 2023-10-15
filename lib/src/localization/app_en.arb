@@ -1,0 +1,6 @@
+{
+  "appTitle": "widget_app_devta",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
