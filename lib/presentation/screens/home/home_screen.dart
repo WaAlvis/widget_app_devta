@@ -1,14 +1,59 @@
 import 'package:flutter/material.dart';
+import 'package:widget_app_devta/config/menu/menu_items.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       appBar: AppBar(
         title: const Text('FLutter + Material 3'),
       ),
+      body: const _HomeListView(),
+    );
+  }
+}
+
+class _HomeListView extends StatelessWidget {
+  const _HomeListView();
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+      itemCount: menuItems.length,
+      itemBuilder: (BuildContext context, int index) {
+        final opcion = menuItems[index];
+
+        return _ListTileMenu(opcion: opcion);
+      },
+    );
+  }
+}
+
+class _ListTileMenu extends StatelessWidget {
+  const _ListTileMenu({
+    required this.opcion,
+  });
+
+  final MenuItem opcion;
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+
+    return ListTile(
+      leading: Icon(
+        opcion.incon,
+        color: colors.primary,
+      ),
+      trailing: Icon(
+        Icons.arrow_forward_ios_outlined,
+        color: colors.primary,
+      ),
+      title: Text(opcion.title),
+      subtitle: Text(opcion.subtitle),
+      onTap: () => Navigator.pushNamed(context, opcion.link),
     );
   }
 }
