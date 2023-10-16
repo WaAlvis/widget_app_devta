@@ -24,7 +24,7 @@ const menuItems = [
   MenuItem(
     title: 'Tarjetas',
     subtitle: 'Tarjeta estilizada',
-    link: '/card',
+    link: '/cards',
     incon: Icons.card_membership_outlined,
   ),
 ];
