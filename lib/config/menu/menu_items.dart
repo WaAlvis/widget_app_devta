@@ -33,4 +33,10 @@ const menuItems = [
     link: '/progress',
     incon: Icons.refresh,
   ),
+   MenuItem(
+    title: 'Snackbars y Dialogos',
+    subtitle: 'Sackbars y Dialogos',
+    link: '/snackbars_dialogs',
+    incon: Icons.info_outline,
+  ),
 ];
