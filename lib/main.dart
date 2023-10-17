@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:widget_app_devta/config/app_theme.dart';
 import 'package:widget_app_devta/config/router/app_router.dart';
 
-import 'package:widget_app_devta/presentation/screens/screens.dart';
-
 void main() {
   runApp(const MainApp());
 }

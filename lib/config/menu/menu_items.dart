@@ -27,4 +27,10 @@ const menuItems = [
     link: '/cards',
     incon: Icons.card_membership_outlined,
   ),
+   MenuItem(
+    title: 'Progres',
+    subtitle: 'Indicadores de progreso',
+    link: '/progress',
+    incon: Icons.refresh,
+  ),
 ];
