@@ -39,4 +39,10 @@ const menuItems = [
     link: '/snackbars_dialogs',
     incon: Icons.info_outline,
   ),
+  MenuItem(
+    title: 'Animated Container',
+    subtitle: 'Animacion de su forma y color',
+    link: '/animated',
+    incon: Icons.move_down_rounded,
+  ),
 ];
