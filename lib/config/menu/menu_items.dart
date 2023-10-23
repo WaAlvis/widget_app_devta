@@ -55,4 +55,10 @@ const menuItems = [
       subtitle: 'Pequeño tutorial introductorio',
       link: '/tutorial',
       incon: Icons.accessible_rounded),
+  MenuItem(
+      title: 'InfiniteScroll y Pull',
+      subtitle: 'Listas infinitas y pull to refresh',
+      link: '/infinite',
+      incon: Icons.list_alt_rounded),
+      
 ];
