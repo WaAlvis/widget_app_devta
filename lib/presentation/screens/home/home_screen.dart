@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('FLutter + Material 3'),
+        title: const Text('Flutter + Material 3'),
       ),
       body: const _HomeListView(),
     );
@@ -49,7 +49,7 @@ class _ListTileMenu extends StatelessWidget {
 
     return ListTile(
         leading: Icon(
-          opcion.incon,
+          opcion.icon,
           color: colors.primary,
         ),
         trailing: Icon(
