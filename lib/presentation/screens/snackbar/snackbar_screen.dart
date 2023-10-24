@@ -19,7 +19,7 @@ class SnackbarScreen extends StatelessWidget {
   }
 
   void openDialog(BuildContext context) {
-    showAboutDialog(context: context);
+    
     showDialog(
       context: context,
       barrierDismissible: false,
