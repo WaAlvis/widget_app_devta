@@ -1,12 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:widget_app_devta/config/app_theme.dart';
+import 'package:widget_app_devta/config/router/app_router.dart';
 
-import 'src/app.dart';
-import 'src/settings/settings_controller.dart';
-import 'src/settings/settings_service.dart';
+void main() {
+  runApp(const MainApp());
+}
 
-void main() async {
-  final settingsController = SettingsController(SettingsService());
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
 
-  await settingsController.loadSettings();
-  runApp(MyApp(settingsController: settingsController));
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp.router(
+      routerConfig: appRouter,
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme(selectedColor: 0).getTheme(),
+    );
+  }
 }
