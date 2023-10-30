@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:widget_app_devta/config/menu/menu_items.dart';
+import 'package:widget_app_devta/presentation/widgets/side_menu.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,12 +10,15 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final scaffoldKey = GlobalKey<ScaffoldState>();
+
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Flutter + Material 3'),
-      ),
-      body: const _HomeListView(),
-    );
+        key: scaffoldKey,
+        appBar: AppBar(
+          title: const Text('Flutter + Material 3'),
+        ),
+        body: const _HomeListView(),
+        drawer: SideMenu(scaffoldKey: scaffoldKey));
   }
 }
 
@@ -43,8 +47,6 @@ class _ListTileMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    
     final colors = Theme.of(context).colorScheme;
 
     return ListTile(
@@ -58,8 +60,18 @@ class _ListTileMenu extends StatelessWidget {
         ),
         title: Text(opcion.title),
         subtitle: Text(opcion.subtitle),
-        onTap: () => context.push(
-              opcion.link,
-            ));
+        onTap: () {
+          // Navigator.of(context).push(
+          //   MaterialPageRoute(
+          //     builder: (context) => const ButtonsScreen(),
+          //   ),
+          // );
+          // Navigator.pushNamed(context, menuItem.link );
+
+          // context.pushNamed( CardsScreen.name );
+          context.push(
+            opcion.link,
+          );
+        });
   }
 }
