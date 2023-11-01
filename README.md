@@ -1,5 +1,5 @@
 # widget_app_devta  
-A Flutter application that shows different components of this framework.
+A Flutter application that shows different components of this framework, con.
 
 * Cards
 * Buttons
@@ -48,5 +48,5 @@ samples, guidance on mobile development, and a full API reference.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTE5Mzk1OF19
+eyJoaXN0b3J5IjpbMTQyNDI5OTI2OCwtMzYxMTkzOTU4XX0=
 -->
