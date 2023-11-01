@@ -1,7 +1,7 @@
 # widget_app_devta  
 A Flutter application that shows different components of this framework.
 
-State Manager with Riverpod V.2
+State Manager with [Riverpod](https://riverpod.dev/)
 
 * Cards
 * Buttons
@@ -54,6 +54,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM4NDYwMzIsMTg5OTg3MTY2NSwxMD
+eyJoaXN0b3J5IjpbLTIwMDE1NTg3MTksMTg5OTg3MTY2NSwxMD
 gwNTIwMTQsMTk2MzcwMTkwOSwtMzYxMTkzOTU4XX0=
 -->
