@@ -1,7 +1,7 @@
 # widget_app_devta  
 A Flutter application that shows different components of this framework.
 
-Gestion de estado con Provicer
+State Manager with Riverpod V.2
 
 * Cards
 * Buttons
@@ -54,6 +54,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTg3MTY2NSwxMDgwNTIwMTQsMTk2Mz
-cwMTkwOSwtMzYxMTkzOTU4XX0=
+eyJoaXN0b3J5IjpbLTE5NzM4NDYwMzIsMTg5OTg3MTY2NSwxMD
+gwNTIwMTQsMTk2MzcwMTkwOSwtMzYxMTkzOTU4XX0=
 -->
