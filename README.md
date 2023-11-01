@@ -1,6 +1,8 @@
 # widget_app_devta  
 A Flutter application that shows different components of this framework.
 
+State Manager with [Riverpod](https://riverpod.dev/)
+
 * Cards
 * Buttons
 * Progress
@@ -13,7 +15,11 @@ A Flutter application that shows different components of this framework.
 * Tutorial page
 * Infinite Scroll with Api
 
+* Light and dark theme with different Seed colors
 
+##   color scheme change
+
+![enter image description here](https://i.ibb.co/zG3Lxmz/color-scheme-change.gif)
 
 
 ## Preview Screens
@@ -45,5 +51,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
-
