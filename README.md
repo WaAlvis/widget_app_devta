@@ -1,7 +1,7 @@
 # widget_app_devta  
 A Flutter application that shows different components of this framework.
 
-C
+Gestion de estado con Provicer
 
 * Cards
 * Buttons
@@ -14,6 +14,8 @@ C
 * Switchs
 * Tutorial page
 * Infinite Scroll with Api
+
+* Light and dark theme with different semila colors
 
 
 
@@ -50,5 +52,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzcwMTkwOSwtMzYxMTkzOTU4XX0=
+eyJoaXN0b3J5IjpbNTQwMTY1NjAwLDE5NjM3MDE5MDksLTM2MT
+E5Mzk1OF19
 -->
