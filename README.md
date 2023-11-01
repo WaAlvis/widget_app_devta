@@ -15,11 +15,11 @@ Gestion de estado con Provicer
 * Tutorial page
 * Infinite Scroll with Api
 
-* Light and dark theme with different semila colors
+* Light and dark theme with different Seed colors
 
 ##   color scheme change
 
-
+![enter image description here](https://i.ibb.co/zG3Lxmz/color-scheme-change.gif)
 
 
 ## Preview Screens
@@ -54,6 +54,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDUyMDE0LDE5NjM3MDE5MDksLTM2MT
-E5Mzk1OF19
+eyJoaXN0b3J5IjpbMTg5OTg3MTY2NSwxMDgwNTIwMTQsMTk2Mz
+cwMTkwOSwtMzYxMTkzOTU4XX0=
 -->
