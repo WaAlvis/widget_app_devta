@@ -35,8 +35,8 @@ class CounterScreen extends ConsumerWidget {
         child: const Icon(Icons.add),
         onPressed: () {
           // 1ra forma
-          ref.read(counterProvider.notifier)
-             .update((state) => state + 1);
+          // ref.read(counterProvider.notifier)
+          //    .update((state) => state + 1);
 
           // 2da forma
           ref.read(counterProvider.notifier).state++;
