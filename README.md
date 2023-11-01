@@ -17,6 +17,8 @@ Gestion de estado con Provicer
 
 * Light and dark theme with different semila colors
 
+##   color scheme change
+
 
 
 
@@ -52,6 +54,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwMTY1NjAwLDE5NjM3MDE5MDksLTM2MT
+eyJoaXN0b3J5IjpbMTA4MDUyMDE0LDE5NjM3MDE5MDksLTM2MT
 E5Mzk1OF19
 -->
